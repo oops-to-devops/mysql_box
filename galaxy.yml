@@ -1,0 +1,17 @@
+namespace: "softasap"
+name: "mysql_box"
+description: wraps sa-mysql installs mysql database server
+version: 0.0.0
+readme: "Readme.md"
+authors:
+    - "Vyacheslav Voronenko"
+dependencies:
+license:
+    - "MIT"
+tags:
+    - softasap
+    - mariadb
+repository: "https://github.com/oops-to-devops/mariadb_box"
+documentation: "https://github.com/oops-to-devops/mariadb_box/blob/master/README.md"
+homepage: "https://www.softasap.com"
+issues: "https://github.com/orgs/oops-to-devops/projects/1"

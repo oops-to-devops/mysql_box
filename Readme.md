@@ -19,7 +19,7 @@ Using with vagrant boilerplate (https://github.com/Voronenko/devops-vagrant-ansi
 ```
 
     config.vm.provision "mysql-box", type: "ansible" do |ansible|
-        ansible.playbook = "deployment/provisioners/mysql-box/box_mysql.yml"
+        ansible.playbook = "deployment/provisioners/mysql-box/playbook.yml"
         ansible.galaxy_role_file = "deployment/provisioners/mysql-box/requirements.yml"
         ansible.galaxy_roles_path = "deployment/provisioners/mysql-box/roles"
         ansible.verbose = true
